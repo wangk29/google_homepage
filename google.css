@@ -1,0 +1,97 @@
+body {
+    -webkit-appearance: none;
+  font-family: arial,sans-serif;
+}
+
+input {
+    width: 272px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.navbar_left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    float: left;
+    padding-right: 15px;
+}
+
+.button {
+  display: inline-block;
+}
+
+.navbar_right {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: block;
+    float: left;
+    padding-left: 15px;
+}
+
+.google_logo {
+    
+    padding-top: 109px;
+    height: 92px;
+    width: 272px;
+    position: absolute;
+    left: 50%;
+
+}
+
+.google_search_button {
+  float: bottom;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  padding: 4px 4px 4px 4px;
+}
+.lucky_button {
+ 
+  position: absolute;
+  left: 57%;
+  top: 60%;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  padding: 4px 4px 4px 4px;
+}
+
+.google_search_bar {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding-top: 200px;
+    color: rgba(0,0,0,.87);
+    position: absolute;
+    left: 50%;
+}
+
+.footer {
+  bottom: 0;
+  font-size: 10pt;
+  height: 35px;
+  position: absolute;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.bottom_buttons_left{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: block;
+    float: left;
+    padding-right: 15px;
+}
+
+.bottom_buttons_right{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: block;
+    float: right;
+    padding-left: 15px;
+}
